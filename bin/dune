@@ -1,0 +1,14 @@
+
+(executable
+ (name actor_test)
+ (public_name lwt_actor.test)
+ (modes native)
+(libraries 
+ lwt 
+ lwt.unix)
+ (preprocess
+  (pps lwt_ppx)))
+
+
+
+
